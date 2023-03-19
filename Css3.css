@@ -1,0 +1,44 @@
+.main {
+  width: 100%;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial;
+}
+.inputdevices {
+  margin: 20px;
+  flex-direction: column;
+  width: 320px;
+}
+.inputdevices_bor {
+  padding-top: 20px;
+  width: 320px;
+  display: flex;
+}
+
+.voluta{
+  width: 320px;
+  margin: 20px;
+  flex-direction: column;
+}
+.voluta_bor {
+  padding-top: 20px;
+}
+.tenge {
+  border: 1px solid black;
+  width: 320px;
+  height: 35px;
+  background-color: lightgrey;
+}
+.dollar {
+  border: 1px solid black;
+  width: 320px;
+  height: 35px;
+  background-color: lightgrey;
+}
+.euro {
+  border: 1px solid black;
+  width: 320px;
+  height: 35px;
+  background-color: lightgrey;;
+}
