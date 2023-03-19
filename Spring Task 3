@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title style="margin: 200px">Spring Task 3</title>
+  <link rel="stylesheet" href="Css3.css">
+</head>
+<body>
+  <div class="main">
+    <div class="inputdevices">
+      Введите сумму:
+      <div class="inputdevices_bor">
+        <div>
+          <input type="text" id="amount" oninput="calculate(this.value)" style=" width: 240px;height: 35px">
+        </div>
+        <div style="padding-left: 20px;">
+          <select id="Valuta" onchange="calculate(document.getElementById('amount').value)" style="width: 60px;height: 40px">
+            <option value="KZT" selected="selected">KZT</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="voluta">
+      <b>KZT (tenge)</b>
+      <div class="voluta_bor">
+        <div class="tenge">
+          <div id="Tenge" style="margin: 10px">
+            -
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="voluta">
+      <b>USD (dollar)</b>
+      <div class="voluta_bor">
+        <div class="dollar">
+          <div id="Dollar" style="margin: 10px">
+            -
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="voluta">
+      <b>EUR (euro)</b>
+      <div class="voluta_bor">
+        <div class="euro">
+          <div id="Euro" style="margin: 10px">
+            -
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="Script.js"></script>
+  </div>
+</body>
+</html>
